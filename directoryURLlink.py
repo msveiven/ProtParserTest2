@@ -47,8 +47,9 @@ def runCreateLinks(link):
         if (directoryList[i] != 'apps'):
             if (directoryList[i] != 'files'):
                 if (directoryList[i] != 'uploads'):
+                    if (directoryList[i] != '.git'):
 #                    createLinks(directoryList[i], url)
-                    createLinks(directoryList[i])
+                        createLinks(directoryList[i])
     #                print(directoryList[i])
         i = i + 1
 
